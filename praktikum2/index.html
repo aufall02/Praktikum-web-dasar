@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>praktikum hari 2</title>
+</head>
+<body >
+    <h1>Praktikum pertemuan 3</h1>
+    <fieldset style="width: 500px ">
+    <legend>Form Data diri</legend>
+    <form action="#">
+        <label for="textfield">Nama : </label><br>
+        <input type="text" name="textfield" id="textfield"><br><br>
+        
+        <label for="passfield">Password : </label><br>
+        <input type="password" name="passfield" id="passfield"><br><br>
+
+        <label for="pendidikan">pilih pendidikan terakhir</label>
+        <select name="pendidikan" id="pendidikan">
+            <optgroup label="PENDIDIKAN">
+                <option value="SMA / SMK">SMK / SMA</option>
+                <option value="SMA / SMK">S 1</option>
+                <option value="SMA / SMK">S 2</option>
+            </optgroup>
+        </select><br><br>
+
+        <label for="gender">Jenis Kelamini</label><br>
+        <!-- Untuk atribut nama harus sama agar bisa memilih salah satu -->
+        <input type="radio" name="gender" id="gender" value="laki-laki">laki-laki
+        <input type="radio" name="gender" id="gender_1" value="peremouan"> peremouan
+        <br><br>
+        
+        <label for="hobi">Hobi</label> <br>
+        <input type="checkbox" name="hobi" id="hobi" value="sepak bola">sepak bola
+        <input type="checkbox" name="hobi" id="hobi_1" value="Voli">Voli
+        <input type="checkbox" name="hobi" id="hobi_2" value="basket">Basket 
+        <input type="checkbox" name="hobi" id="hobi_3" value="Tidur">Tidur 
+        <br><br>
+        <input type="submit" name="submit" >
+        <input type="reset" name="">
+        <button>ini tombol</button>
+    </form>
+</fieldset>
+</body>
+</html>

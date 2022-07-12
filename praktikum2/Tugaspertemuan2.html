@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset style="width: 500px">
+            <legend>Formulir ONLINE</legend>
+            <fieldset>
+                <legend>DATA DIRI</legend>
+                <label for="nama" >Nama </label><br>
+                <input type="text"><br>
+                <label for="password">password</label><br>
+                <input type="password" name="password" id="">
+            </fieldset>
+            <fieldset>
+                <legend>pilih Pendidikan</legend>
+                <select name="pendidikan">
+                    <optgroup label="FORMAL">
+                            <option value="SMA / SMK">SMK / SMA</option>
+                            <option value="SMA / SMK">S 1</option>
+                            <option value="SMA / SMK">S 2</option>
+                    </optgroup>
+                    <optgroup label="NON-formal">
+                        <option value="tempatKursus">Tempat Kursus</option>
+                        <option value="PondokPesantren">Pondok PondokPesantren</option>
+                </optgroup>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Jenis Kelamin</legend>
+                <!-- Untuk atribut nama harus sama agar bisa memilih salah satu -->
+                <input type="radio" name="gender" id="gender" value="laki-laki">laki-laki
+                <input type="radio" name="gender" id="gender_1" value="peremouan"> perempuan
+            </fieldset>
+            <fieldset>
+                <legend>Hobi</legend>
+                <input type="checkbox" name="hobi" id="hobi" value="sepak bola">sepak bola
+                <input type="checkbox" name="hobi" id="hobi_1" value="Voli">Voli <br>
+                <button>Kirim</button>
+            </fieldset>
+            <fieldset>
+                <legend>TERIMA KASIH</legend>
+                <fieldset>
+                    <legend>Sudah memeberikan waktu untuk mengisi formulir</legend>
+                </fieldset>
+            </fieldset>
+        </fieldset>
+    </form>
+</body>
+</html>
