@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+h1{
+    color: aqua;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+table {
+    color: aliceblue;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 500px;
+
+  }
+  
+th {
+    border: 1px solid cyan;
+    text-align: left;
+    padding: 8px;
+  }
+td {
+    border: 1px solid wheat;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr *:nth-child(1){
+    color: lightcoral;
+    text-align: center;
+  }
+  
+  tr *:nth-child(2){
+    color: pink;
+    text-align: left;
+  }
+  
+  tr *:nth-child(3){
+    color: yellow;
+    text-align: end;
+  }
+  
