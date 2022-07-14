@@ -1,0 +1,38 @@
+ 
+
+
+section{
+    margin: auto;
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+    background-color: #7DB290;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+
+}
+
+button{
+    height: 20px;
+    width: 45px;
+    background-color: #244C66;
+    color: aliceblue;
+    border: 0px solid cyan;
+    border-radius: 2px;
+    
+}
+
+section input{
+    border: 0px solid cyan;
+    border-radius: 2px;
+}
+section button{
+    height: 30px;
+    width: 70px ;
+}
+
+.hidden{
+    display: none;
+}
